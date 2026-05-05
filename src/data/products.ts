@@ -10,17 +10,16 @@ export type Product = {
 export const products: Product[] = [
 
   // ===== TOPOS =====
-  { name: "Topos Azalea", price: 96000, image: "/products/topos-azalea.jpg", category: "Topos" },
-  { name: "Topos Clover", price: 49000, image: "/products/topos-clover.jpg", category: "Topos" },
+  { name: "Topos Azalea", price: 96000, image: "/products/topos-azalea.jpg", category: "Topos" }, 
   { name: "Topos Magnolia", price: 115000, image: "/products/topos-magnolia.jpg", category: "Topos" },
-  { name: "Topos Isla", price: 46000, image: "/products/topos-isla.jpg", category: "Topos" },
   { name: "Topos Estela", price: 46000, image: "/products/topos-estela.jpg", category: "Topos" },
-  { name: "Topos Alba", price: 59000, image: "/products/topos-alba.jpg", category: "Topos" },
+  { name: "Topos Alba", image: "/products/topos-alba.jpg", category: "Topos" },
+  { name: "Topos Isla", image: "/products/topos-isla.jpg", category: "Topos" },
 
   { name: "Topos Lira", image: "/products/topos-lira.jpg", category: "Topos" },
   { name: "Topos Camelia", image: "/products/topos-camelia.jpg", category: "Topos" },
   { name: "Topos Aura", image: "/products/topos-aura.jpg", category: "Topos" },
-
+ { name: "Topos Clover", image: "/products/topos-clover.jpg", category: "Topos" },
 
   { name: "Topos Elara", price: 23000, image: "/products/topos-elara.jpg", category: "Topos" },
   { name: "Topos Roselle", price: 56000, image: "/products/topos-roselle.jpg", category: "Topos" },
@@ -136,7 +135,7 @@ export const products: Product[] = [
   { name: "Earcuff Flor de Nácar", price: 53000, image: "/products/earcuff-flor-de-nacar.jpg", category: "Earcuffs" },
   { name: "Earcuff Azalea", price: 40000, image: "/products/earcuff-azalea.jpg", category: "Earcuffs" },
   { name: "Earcuff Raiz", price: 33000, image: "/products/earcuff-raiz.jpg", category: "Earcuffs" },
-  { name: "Earcuff Malla", price: 33000, image: "/products/earcuff-malla.jpg", category: "Earcuffs" },
+  { name: "Earcuff Malla", image: "/products/earcuff-malla.jpg", category: "Earcuffs" },
 
   { name: "Earcuff Encaje Real", image: "/products/earcuff-encaje-real.jpg", category: "Earcuffs" },
   { name: "Earcuff Lazo de Plata", image: "/products/earcuff-lazo-de-plata.jpg", category: "Earcuffs" },
