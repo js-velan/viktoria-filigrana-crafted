@@ -95,7 +95,7 @@ export const products: Product[] = [
   { name: "Set Novara", image: "/products/set-novara.jpg", category: "Sets" },
   { name: "Set Gatos", image: "/products/set-gatos.jpg", category: "Sets" },
   { name: "Set Aveline", image: "/products/set-aveline.jpg", category: "Sets" },
-  { name: "Set Cruz Viktoria Mini", image: "/products/set-cruz-viktoria-mini.jpg", category: "Sets" },
+
 
   // ===== CADENAS Y PULSERAS =====
   { name: "Cadena Nacar", price: 225000, image: "/products/cadena-nacar.jpg", category: "Cadenas" },
