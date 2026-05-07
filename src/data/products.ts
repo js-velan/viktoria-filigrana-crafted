@@ -37,9 +37,9 @@ export const products: Product[] = [
 
   { name: "Topos Colibrí", price: 95000, image: "/products/topos-colibri.webp", category: "Topos" },
 
-  { name: "Candongas Siena", price: 56000, image: "/products/candongas-siena.webp", category: "Topos" },  
-  { name: "Candongas Roma", price: 56000, image: "/products/candongas-roma.webp", category: "Topos" },
-  { name: "Candongas Laurel", price: 86000, image: "/products/candongas-laurel.webp", category: "Topos" },
+  { name: "Candongas Siena", price: 62000, image: "/products/candongas-siena.webp", category: "Topos" },  
+  { name: "Candongas Roma", price: 86000, image: "/products/candongas-roma.webp", category: "Topos" },
+  { name: "Candongas Laurel", price: 62000, image: "/products/candongas-laurel.webp", category: "Topos" },
 
   { name: "Topos Serena", image: "/products/topos-serena.webp", category: "Topos" },
   { name: "Topos Libélula Celeste", image: "/products/topos-libelula-celeste.webp", category: "Topos" },
