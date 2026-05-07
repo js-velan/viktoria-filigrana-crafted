@@ -10,9 +10,9 @@ export type Product = {
 export const products: Product[] = [
 
   // ===== TOPOS =====
-  { name: "Topos Azalea", price: 96000, image: "/products/topos-azalea.webp", category: "Topos" }, 
-  { name: "Topos Magnolia", price: 115000, image: "/products/topos-magnolia.webp", category: "Topos" },
-  { name: "Topos Estela", price: 46000, image: "/products/topos-estela.webp", category: "Topos" },
+  { name: "Topos Azalea", price: 105000, image: "/products/topos-azalea.webp", category: "Topos" }, 
+  { name: "Topos Magnolia", price: 130000, image: "/products/topos-magnolia.webp", category: "Topos" },
+  { name: "Topos Estela", price: 50000, image: "/products/topos-estela.webp", category: "Topos" },
   { name: "Topos Alba", image: "/products/topos-alba.webp", category: "Topos" },
   { name: "Topos Isla", image: "/products/topos-isla.webp", category: "Topos" },
 
@@ -21,13 +21,13 @@ export const products: Product[] = [
   { name: "Topos Aura", image: "/products/topos-aura.webp", category: "Topos" },
  { name: "Topos Clover", image: "/products/topos-clover.webp", category: "Topos" },
 
-  { name: "Topos Elara", price: 23000, image: "/products/topos-elara.webp", category: "Topos" },
+  { name: "Topos Elara", price: 30000, image: "/products/topos-elara.webp", category: "Topos" },
 
 
   { name: "Topos Perla", price: 36000, image: "/products/topos-perla.webp", category: "Topos" },
   { name: "Topos Perla Mini", price: 15000, image: "/products/topos-perla-mini.webp", category: "Topos" },
-  { name: "Topos Dalia x3", price: 30000, image: "/products/topos-dalia-x3.webp", category: "Topos" },
-  { name: "Topos Celestia", price: 112000, image: "/products/topos-celestia.webp", category: "Topos" },
+  { name: "Topos Dalia x3", price: 35000, image: "/products/topos-dalia-x3.webp", category: "Topos" },
+  { name: "Topos Celestia", price: 125000, image: "/products/topos-celestia.webp", category: "Topos" },
 
   { name: "Topos Vida", image: "/products/topos-vida.webp", category: "Topos" },
   { name: "Topos Dalia x4", image: "/products/topos-dalia-x4.webp", category: "Topos" },
@@ -35,7 +35,7 @@ export const products: Product[] = [
   { name: "Topos Aveline", image: "/products/topos-aveline.webp", category: "Topos" },
 
 
-  { name: "Topos Colibrí", price: 86000, image: "/products/topos-colibri.webp", category: "Topos" },
+  { name: "Topos Colibrí", price: 95000, image: "/products/topos-colibri.webp", category: "Topos" },
 
   { name: "Candongas Siena", price: 56000, image: "/products/candongas-siena.webp", category: "Topos" },  
   { name: "Candongas Roma", price: 56000, image: "/products/candongas-roma.webp", category: "Topos" },
