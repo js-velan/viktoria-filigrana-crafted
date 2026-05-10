@@ -37,9 +37,10 @@ export const products: Product[] = [
 
   { name: "Topos Colibrí", price: 95000, image: "/products/topos-colibri.webp", category: "Topos" },
 
-  { name: "Candongas Siena", price: 62000, image: "/products/candongas-siena.webp", category: "Topos" },  
+
   { name: "Candongas Roma", price: 86000, image: "/products/candongas-roma.webp", category: "Topos" },
   { name: "Candongas Laurel", price: 62000, image: "/products/candongas-laurel.webp", category: "Topos" },
+  { name: "Candongas Siena", image: "/products/candongas-siena.webp", category: "Topos" },  
 
   { name: "Topos Serena", image: "/products/topos-serena.webp", category: "Topos" },
   { name: "Topos Libélula Celeste", image: "/products/topos-libelula-celeste.webp", category: "Topos" },
@@ -52,8 +53,8 @@ export const products: Product[] = [
   { name: "Topos Largos Aveline", price: 264000, image: "/products/topos-largos-aveline.webp", category: "Topos" },
   { name: "Topos Largos Dalia", price: 400000, image: "/products/topos-largos-dalia.webp", category: "Topos" },
   { name: "Topos Imperiale", price: 70000, image: "/products/topos-imperiale.webp", category: "Topos" },
-  { name: "Topos Valence", price: 122000, image: "/products/topos-valence.webp", category: "Topos" },
 
+  { name: "Topos Valence", image: "/products/topos-valence.webp", category: "Topos" },
   { name: "Topos Sombrero Vueltiao", image: "/products/topos-sombrero-vueltiao.webp", category: "Topos" },
 
   // ===== ARETES =====
@@ -81,9 +82,11 @@ export const products: Product[] = [
   { name: "Dije Imperiale", price: 47000, image: "/products/dije-imperiale.webp", category: "Dijes" },
   { name: "Dije Delfín", price: 71000, image: "/products/dije-delfin.webp", category: "Dijes" },
   { name: "Dije Sorelle", price: 56000, image: "/products/dije-sorelle.webp", category: "Dijes" },
-  { name: "Dije Estrella Alba", price: 30000, image: "/products/dije-estrella-alba.webp", category: "Dijes" },
+
   { name: "Dije Rayito", price: 17000, image: "/products/dije-rayito.webp", category: "Dijes" },
   { name: "Dije Sombrero Vueltiao", price: 112000, image: "/products/dije-sombrero-vueltiao.webp", category: "Dijes" },
+
+  { name: "Dije Estrella Alba", image: "/products/dije-estrella-alba.webp", category: "Dijes" },
 
   // ===== SETS =====
   { name: "Set Vuelo", price: 198000, image: "/products/set-vuelo.webp", category: "Sets" },
@@ -113,12 +116,13 @@ export const products: Product[] = [
 
 
   { name: "Pulsera Brillo", price: 130000, image: "/products/pulsera-brillo.webp", category: "Pulseras" },
-  { name: "Pulsera Entrelazos", price: 370000, image: "/products/pulsera-entrelazos.webp", category: "Pulseras" },
+
   { name: "Pulsera Jazmín", price: 346000, image: "/products/pulsera-jazmin.webp", category: "Pulseras" },
 
   { name: "Pulsera Ensueño", image: "/products/pulsera-ensueño.webp", category: "Pulseras" },
   { name: "Pulsera Gardenia", image: "/products/pulsera-gardenia.webp", category: "Pulseras" },
-
+  { name: "Pulsera Entrelazos", image: "/products/pulsera-entrelazos.webp", category: "Pulseras" },
+  
   // ===== ANILLOS =====
   { name: "Anillo Alba", price: 119000, image: "/products/anillo-alba.webp", category: "Anillos" },
   { name: "Anillo Aurea", price: 155000, image: "/products/anillo-aurea.webp", category: "Anillos" },
