@@ -17,7 +17,7 @@ export const products: Product[] = [
   { name: "Topos Isla", image: "/products/topos-isla.webp", category: "Topos" },
 
   { name: "Topos Lira", image: "/products/topos-lira.webp", category: "Topos" },
-  { name: "Topos Camelia", image: "/products/topos-camelia.webp", category: "Topos" },
+  { name: "Topos Camelia",price: 150000, image: "/products/topos-camelia.webp", category: "Topos" },
   { name: "Topos Aura", image: "/products/topos-aura.webp", category: "Topos" },
  { name: "Topos Clover", image: "/products/topos-clover.webp", category: "Topos" },
 
@@ -42,20 +42,20 @@ export const products: Product[] = [
   { name: "Candongas Laurel", price: 62000, image: "/products/candongas-laurel.webp", category: "Topos" },
   { name: "Candongas Siena", image: "/products/candongas-siena.webp", category: "Topos" },  
 
-  { name: "Topos Serena", image: "/products/topos-serena.webp", category: "Topos" },
+  { name: "Topos Serena",price: 72000, image: "/products/topos-serena.webp", category: "Topos" },
   { name: "Topos Libélula Celeste", image: "/products/topos-libelula-celeste.webp", category: "Topos" },
   { name: "Topos Mariposa", image: "/products/topos-mariposa.webp", category: "Topos" },
-  { name: "Topos Nala", image: "/products/topos-nala.webp", category: "Topos" },
-  { name: "Topos Libélula Aurea", image: "/products/topos-libelula-aurea.webp", category: "Topos" },
+  { name: "Topos Nala",  image: "/products/topos-nala.webp", category: "Topos" },
+  { name: "Topos Libélula Aurea",price: 72000, image: "/products/topos-libelula-aurea.webp", category: "Topos" },
 
 
   { name: "Topos Largos Eva", price: 182000, image: "/products/topos-largos-eva.webp", category: "Topos" },
   { name: "Topos Largos Aveline", price: 264000, image: "/products/topos-largos-aveline.webp", category: "Topos" },
-  { name: "Topos Largos Dalia", price: 400000, image: "/products/topos-largos-dalia.webp", category: "Topos" },
+  { name: "Topos Largos Virel", price: 400000, image: "/products/topos-largos-virel.webp", category: "Topos" },
   { name: "Topos Imperiale", price: 70000, image: "/products/topos-imperiale.webp", category: "Topos" },
 
   { name: "Topos Valence", image: "/products/topos-valence.webp", category: "Topos" },
-  { name: "Topos Sombrero Vueltiao", image: "/products/topos-sombrero-vueltiao.webp", category: "Topos" },
+  { name: "Topos Sombrero Vueltiao",price: 110000, image: "/products/topos-sombrero-vueltiao.webp", category: "Topos" },
 
   // ===== ARETES =====
   { name: "Aretes Brisa", price: 119000, image: "/products/aretes-brisa.webp", category: "Aretes" },
@@ -117,7 +117,7 @@ export const products: Product[] = [
 
   { name: "Pulsera Brillo", price: 130000, image: "/products/pulsera-brillo.webp", category: "Pulseras" },
 
-  { name: "Pulsera Jazmín", price: 346000, image: "/products/pulsera-jazmin.webp", category: "Pulseras" },
+  { name: "Pulsera Jazmín", price: 355000, image: "/products/pulsera-jazmin.webp", category: "Pulseras" },
 
   { name: "Pulsera Ensueño", image: "/products/pulsera-ensueño.webp", category: "Pulseras" },
   { name: "Pulsera Gardenia", image: "/products/pulsera-gardenia.webp", category: "Pulseras" },
