@@ -156,6 +156,23 @@ export const products: Product[] = [
   { name: "Anillo Ateliar", price: 75000, image: "/products/anillo-ateliar.webp", category: "Anillos" },
   { name: "Anillo Virel", price: 86000, image: "/products/anillo-virel.webp", category: "Anillos" },
   { name: "Anillo Maelis", price: 109000, image: "/products/anillo-maelis.webp", category: "Anillos" },
+  { name: "Anillo Roselle", price: 45000, image: "/products/anillo-roselle.webp", category: "Anillos" },
+
+{ name: "Anillo Nerida", price: 45000, image: "/products/anillo-nerida.webp", category: "Anillos" },
+
+{ name: "Anillo Mariposa", price: 45000, image: "/products/anillo-mariposa.webp", category: "Anillos" },
+
+{ name: "Anillo Libelula", price: 45000, image: "/products/anillo-libelula.webp", category: "Anillos" },
+
+{ name: "Anillo Lavanda", price: 45000, image: "/products/anillo-lavanda.webp", category: "Anillos" },
+
+{ name: "Anillo Jardin", price: 45000, image: "/products/anillo-jardin.webp", category: "Anillos" },
+
+{ name: "Anillo Imperial", price: 45000, image: "/products/anillo-imperial.webp", category: "Anillos" },
+
+{ name: "Anillo Froda", price: 45000, image: "/products/anillo-froda.webp", category: "Anillos" },
+
+{ name: "Anillo Aura", price: 45000, image: "/products/anillo-aura.webp", category: "Anillos" },
 
   { name: "Anillo Aurelia", image: "/products/anillo-aurelia.webp", category: "Anillos" },
   { name: "Anillo Elara", image: "/products/anillo-elara.webp", category: "Anillos" },
