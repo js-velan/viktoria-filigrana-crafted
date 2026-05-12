@@ -137,6 +137,21 @@ export const products: Product[] = [
   { name: "Cadena Brillo", price: 235000, image: "/products/cadena-brillo.webp", category: "Cadenas" },
   { name: "Cadena Brillo Niño", price: 160000, image: "/products/cadena-brillo-niño.webp", category: "Cadenas" },
 
+{ name: "Cadena Alma", price: 65000, image: "/products/cadena-alma.webp", category: "Cadenas" },
+
+{ name: "Cadena Aurora", price: 135000, image: "/products/cadena-aurora.webp", category: "Cadenas" },
+
+{ name: "Cadena Celeste", price: 120000, image: "/products/cadena-celeste.webp", category: "Cadenas" },
+
+{ name: "Cadena Delfin", price: 90000, image: "/products/cadena-delfin.webp", category: "Cadenas" },
+
+{ name: "Cadena Fiore", price: 70000, image: "/products/cadena-fiore.webp", category: "Cadenas" },
+
+{ name: "Cadena Jazmin", price: 130000, image: "/products/cadena-jazmin.webp", category: "Cadenas" },
+
+,  
+
+
 
   { name: "Pulsera Brillo", price: 130000, image: "/products/pulsera-brillo.webp", category: "Pulseras" },
 
