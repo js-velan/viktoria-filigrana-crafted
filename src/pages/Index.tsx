@@ -1,6 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Instagram, Mail, ArrowRight, Phone } from "lucide-react";
+import {
+  Instagram,
+  Mail,
+  ArrowRight,
+  Phone,
+  Menu,
+  X,
+} from "lucide-react";
 
 import heroImg from "@/assets/hero-jewelry.jpg";
 import historiaImg from "@/assets/proceso2.png";
@@ -10,7 +17,7 @@ import { products } from "@/data/products";
 
 
 const categories = [
-  "Topos", "Aretes", "Dijes", "Sets", "Cadenas", "Pulseras", "Anillos", "Earcuffs",
+  "Topos", "Aretes", "Dijes", "Sets", "Cadenas", "Pulseras", "Anillos", "Earcuff",
 ];
 
 const Reveal = ({ children, delay = 0, className = "" }: { children: React.ReactNode; delay?: number; className?: string }) => {
@@ -41,7 +48,20 @@ const Monogram = () => (
 );
 
 const Index = () => {
+  
   const [showPromo, setShowPromo] = useState(true);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [mobileMenuOpen]);
   const featuredProducts = products.filter((p) =>
     [
       "Topos Azalea",
@@ -81,27 +101,102 @@ const Index = () => {
     </div>
   )}
 {/* NAV */}
-      <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-navy-darker/60 border-b border-border/40">
-        <div className="container flex items-center justify-between h-20">
-          <a href="#top" className="flex items-baseline gap-3">
-            <img
-              src="/logo-viktoria.png" 
-              alt="Viktoria" 
-              className="h-10 md:h-12 object-contain" />
-            <span className="font-serif-display text-lg md:text-xl tracking-[0.25em] text-silver-bright leading-none -translate-y-[6px] -translate-x-[24px]">
-              IKTORIA
-            </span>
-            
-          </a>
-          <nav className="hidden md:flex gap-10 text-xs tracking-[0.25em] uppercase text-silver-muted">
-            <a href="#destacados" className="hover:text-silver-bright transition-colors">Destacados</a>
-            <a href="#historia" className="hover:text-silver-bright transition-colors">Historia</a>
-            <a href="#categorias" className="hover:text-silver-bright transition-colors">Categorías</a>
-            <a href="#contacto" className="hover:text-silver-bright transition-colors">Contacto</a>
-          </nav>
-          
-        </div>
-      </header>
+<header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-navy-darker/60 border-b border-border/40">
+
+  <div className="container flex items-center justify-between h-20">
+
+    {/* LOGO */}
+    <a href="#top" className="flex items-baseline gap-3">
+      <img
+        src="/logo-viktoria.png"
+        alt="Viktoria"
+        className="h-10 md:h-12 object-contain"
+      />
+
+      <span className="font-serif-display text-lg md:text-xl tracking-[0.25em] text-silver-bright leading-none -translate-y-[6px] -translate-x-[24px]">
+        IKTORIA
+      </span>
+    </a>
+
+    {/* MENU DESKTOP */}
+    <nav className="hidden md:flex gap-10 text-xs tracking-[0.25em] uppercase text-silver-muted">
+
+      <a href="#coleccion" className="hover:text-silver-bright transition-colors">
+        Destacados
+      </a>
+
+      <a href="#historia" className="hover:text-silver-bright transition-colors">
+        Historia
+      </a>
+
+      <a href="#categorias" className="hover:text-silver-bright transition-colors">
+        Categorías
+      </a>
+
+      <a href="#contacto" className="hover:text-silver-bright transition-colors">
+        Contacto
+      </a>
+
+    </nav>
+
+    {/* BOTON MOBILE */}
+    <button
+      onClick={() => setMobileMenuOpen(true)}
+      className="md:hidden text-silver-bright"
+    >
+      <Menu size={28} />
+    </button>
+
+  </div>
+
+  {/* MENU MOBILE */}
+  {mobileMenuOpen && (
+
+    <div className="fixed inset-0 bg-navy-darker z-[999] flex flex-col items-center justify-center">
+      {/* BOTON CERRAR */}
+      <button
+        onClick={() => setMobileMenuOpen(false)}
+        className="absolute top-6 right-6 text-white"
+      >
+        <X size={32} />
+      </button>
+
+      <nav className="flex flex-col items-center justify-center gap-8 text-2xl uppercase tracking-[0.25em] text-silver-bright">
+        <a
+          href="#coleccion"
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          Destacados
+        </a>
+
+        <a
+          href="#historia"
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          Historia
+        </a>
+
+        <a
+          href="#categorias"
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          Categorías
+        </a>
+
+        <a
+          href="#contacto"
+          onClick={() => setMobileMenuOpen(false)}
+        >
+          Contacto
+        </a>
+
+      </nav>
+
+    </div>
+
+  )}
+
+</header>
 
       {/* HERO */}
       <section id="top" className="relative h-screen min-h-[680px] w-full flex items-center justify-center">
@@ -121,8 +216,8 @@ const Index = () => {
           </p>
           <div className="animate-fade-up delay-300 mt-12 flex justify-center">
             <Button asChild variant="ghost" size="lg" className="group rounded-none border border-silver/60 bg-transparent text-silver-bright hover:bg-silver hover:text-navy-darker px-10 py-7 tracking-[0.3em] uppercase text-xs transition-all duration-500">
-              <a href="#coleccion">
-                Ver colección
+              <a href="#categorias">
+                Ver categorias
                 <ArrowRight className="ml-3 h-4 w-4 transition-transform duration-500 group-hover:translate-x-1" />
               </a>
             </Button>

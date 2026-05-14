@@ -1,8 +1,9 @@
 import { products } from "@/data/products";
+import { Link } from "react-router-dom";
 
 const Earcuff = () => {
-  const Earcuff = products.filter(
-    (p) => p.category === "Earcuff"
+  const earcuff = products.filter(
+    (p) => p.category === "earcuff"
   );
 
   return (
@@ -26,7 +27,7 @@ const Earcuff = () => {
       {/* GRID */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 
-        {Earcuff.map((p) => (
+        {earcuff.map((p) => (
 
           <a
             key={p.name}

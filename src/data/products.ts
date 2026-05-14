@@ -149,7 +149,7 @@ export const products: Product[] = [
 
 { name: "Cadena Jazmin", price: 130000, image: "/products/cadena-jazmin.webp", category: "Cadenas" },
 
-,  
+  
 
 
 
@@ -192,14 +192,14 @@ export const products: Product[] = [
   { name: "Anillo Aurelia", image: "/products/anillo-aurelia.webp", category: "Anillos" },
   { name: "Anillo Elara", image: "/products/anillo-elara.webp", category: "Anillos" },
   { name: "Anillo Liora", image: "/products/anillo-liora.webp", category: "Anillos" },      
-  // ===== EARCUFFS =====
+  // ===== earcuff =====
 
-  { name: "Earcuff Flor de Nácar", price: 53000, image: "/products/earcuff-flor-de-nacar.webp", category: "Earcuffs" },
-  { name: "Earcuff Azalea", price: 40000, image: "/products/earcuff-azalea.webp", category: "Earcuffs" },
-  { name: "Earcuff Raiz", price: 33000, image: "/products/earcuff-raiz.webp", category: "Earcuffs" },
-  { name: "Earcuff Malla", image: "/products/earcuff-malla.webp", category: "Earcuffs" },
+  { name: "Earcuff Flor de Nácar", price: 53000, image: "/products/earcuff-flor-de-nacar.webp", category: "earcuff" },
+  { name: "Earcuff Azalea", price: 40000, image: "/products/earcuff-azalea.webp", category: "earcuff" },
+  { name: "Earcuff Raiz", price: 33000, image: "/products/earcuff-raiz.webp", category: "earcuff" },
+  { name: "Earcuff Malla", image: "/products/earcuff-malla.webp", category: "earcuff" },
 
-  { name: "Earcuff Encaje Real", image: "/products/earcuff-encaje-real.webp", category: "Earcuffs" },
-  { name: "Earcuff Lazo de Plata", image: "/products/earcuff-lazo-de-plata.webp", category: "Earcuffs" },
-  { name: "Earcuff Trenza", image: "/products/earcuff-trenza.webp", category: "Earcuffs" },
+  { name: "Earcuff Encaje Real", image: "/products/earcuff-encaje-real.webp", category: "earcuff" },
+  { name: "Earcuff Lazo de Plata", image: "/products/earcuff-lazo-de-plata.webp", category: "earcuff" },
+  { name: "Earcuff Trenza", image: "/products/earcuff-trenza.webp", category: "earcuff" },
 ];
