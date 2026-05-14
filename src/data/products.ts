@@ -77,7 +77,7 @@ export const products: Product[] = [
 
 
 { name: "Topos Onagra", price: 68000, image: "/products/topos-onagra.webp", category: "Topos" },
-{ name: "Topos Sol", price: 43000, image: "/products/topos-sol.webp", category: "Topos" },
+{ name: "Topos Sol", image: "/products/topos-sol.webp", category: "Topos" },
 { name: "Topos Uvas", price: 83000, image: "/products/topos-uvas.webp", category: "Topos" },
 
   // ===== ARETES =====
