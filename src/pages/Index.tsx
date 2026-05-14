@@ -42,11 +42,11 @@ const Monogram = () => (
 
 const Index = () => {
   const [showPromo, setShowPromo] = useState(true);
-  const grouped = products.reduce((acc, p) => {
-  if (!acc[p.category]) acc[p.category] = [];
-  acc[p.category].push(p);
-  return acc;
-}, {} as Record<string, typeof products>);
+  const featuredProducts = [...products]
+    .filter((p) => p.price)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 8);
+  
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {showPromo && (
@@ -86,7 +86,7 @@ const Index = () => {
             
           </a>
           <nav className="hidden md:flex gap-10 text-xs tracking-[0.25em] uppercase text-silver-muted">
-            <a href="#coleccion" className="hover:text-silver-bright transition-colors">Colección</a>
+            <a href="#destacados" className="hover:text-silver-bright transition-colors">Destacados</a>
             <a href="#historia" className="hover:text-silver-bright transition-colors">Historia</a>
             <a href="#categorias" className="hover:text-silver-bright transition-colors">Categorías</a>
             <a href="#contacto" className="hover:text-silver-bright transition-colors">Contacto</a>
@@ -134,47 +134,49 @@ const Index = () => {
     
           <div className="text-center mb-20">
             <p className="text-[10px] tracking-[0.5em] uppercase text-silver-muted mb-5">
-              Colección
+              Destacados
             </p>
             <h2 className="font-serif-display text-4xl md:text-6xl text-silver-bright">
-              Nuestras <em className="italic">piezas</em>
+              Seleccion <em className="italic">Viktoria</em>
             </h2>
             <div className="hairline w-24 mx-auto mt-8" />
           </div>
 
-          {Object.entries(grouped).map(([category, items]) => (
-            <div key={category} className="mb-20">
-              <h3 className="text-xl mb-8 tracking-[0.2em] uppercase text-silver-bright">
-                {category}
-              </h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {featuredProducts.map((p) => (
+              <div key={p.name} className="group">
+                <div className="overflow-hidden rounded-lg">
+                  <img
+                    src={p.image}
+                    alt={p.name}
+                    loading="lazy"
+                    className="w-full h-full max-h-[300px] object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                {items.map((p) => (
-                  <div key={p.name} className="group">
-                    <div className="overflow-hidden rounded-lg">
-                      <img
-                        src={p.image}
-                        alt={p.name}
-                        loading="lazy"
-                        className="w-full h-full max-h-[300px] object-cover transition-transform duration-700 group-hover:scale-105"
-                      />
-                    </div>
+                <h3 className="mt-3 text-sm tracking-wide text-silver-bright">
+                  {p.name}
+                </h3>
 
-                    <h3 className="mt-3 text-sm tracking-wide text-silver-bright">
-                      {p.name}
-                    </h3>
-
-                    <p className="text-silver-muted">
-                      {p.price
-                        ? `$${p.price.toLocaleString("es-CO")}`
-                        : "Bajo pedido"}
-                    </p>
-                                       
-                  </div>
-                ))}
+                <p className="text-silver-muted">
+                  {p.price
+                    ? `$${p.price.toLocaleString("es-CO")}`
+                    : "Bajo pedido"}
+                </p>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          <div className="text-center mt-14">
+            <a
+              href="#categorias"
+              className="border border-silver/40 px-8 py-4 uppercase tracking-[0.3em] text-xs text-silver-bright hover:bg-silver hover:text-navy transition-all duration-500"
+            >
+              Ver todas las categorías
+            </a>
+          </div>
+
+
 
   </div>
 </section>
@@ -261,7 +263,16 @@ const Index = () => {
             {categories.map((c, i) => (
               <Reveal key={c} delay={i * 60}>
                 <a
-                  href="#coleccion"
+                  href={`/${
+                    c === "Topos" ? "topos" :
+                    c === "Aretes" ? "aretes" :
+                    c === "Dijes" ? "dijes" :
+                    c === "Sets" ? "sets" :
+                    c === "Cadenas" ? "cadenas" :
+                    c === "Pulseras" ? "pulseras" :
+                    c === "Anillos" ? "anillos" :
+                    "earcuff"
+                  }`}
                   className="group relative flex items-center justify-center aspect-square bg-navy-darker hover:bg-navy transition-colors duration-700 p-6"
                 >
                   <span className="absolute top-4 left-5 text-[10px] tracking-[0.3em] text-silver-muted">0{i + 1}</span>
