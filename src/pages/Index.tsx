@@ -43,7 +43,7 @@ const Monogram = () => (
 const Index = () => {
   const [showPromo, setShowPromo] = useState(true);
   const featuredProducts = [...products]
-    .filter((p) => p.price)
+    .filter((p) => typeof p.price === "number")
     .sort(() => Math.random() - 0.5)
     .slice(0, 8);
   
