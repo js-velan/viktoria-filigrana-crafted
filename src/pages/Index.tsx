@@ -42,12 +42,20 @@ const Monogram = () => (
 
 const Index = () => {
   const [showPromo, setShowPromo] = useState(true);
-  const featuredProducts = [...products]
-    
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 8);
-  
+  const featuredProducts = products.filter((p) =>
+    [
+      "Topos Azalea",
+      "Topos Clover",
+      "Anillo Alba",
+      "Aretes Brisa",
+      "Set Vuelo",
+      "Topos Magnolia",
+      "Cadena Estela",
+      "Aretes Gota",
+    ].includes(p.name)
+  );
   return (
+
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {showPromo && (
     <div className="fixed inset-0 z-[999] bg-black/70 flex items-center justify-center">
@@ -370,5 +378,4 @@ const Index = () => {
     </div>
   );
 };
-
 export default Index;
