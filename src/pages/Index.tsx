@@ -149,22 +149,43 @@ const Index = () => {
 
   </div>
 
-  {/* MENU MOBILE */}
-  {mobileMenuOpen && (
+{/* MENU MOBILE */}
+{mobileMenuOpen && (
 
-    <div className="fixed inset-0 bg-navy-darker z-[999] flex flex-col items-center justify-center">
-      {/* BOTON CERRAR */}
-      <button
-        onClick={() => setMobileMenuOpen(false)}
-        className="absolute top-6 right-6 text-white"
-      >
-        <X size={32} />
-      </button>
+  <div className="fixed inset-0 z-[9999] flex">
 
-      <nav className="flex flex-col items-center justify-center gap-8 text-2xl uppercase tracking-[0.25em] text-silver-bright">
+    {/* OVERLAY */}
+    <div
+      className="flex-1 bg-black/50"
+      onClick={() => setMobileMenuOpen(false)}
+    />
+
+    {/* PANEL */}
+    <div className="w-[78%] max-w-[320px] h-screen bg-[#020b1c] border-l border-white/10 p-8 flex flex-col animate-slide-in-right">
+
+      {/* TOP */}
+      <div className="flex justify-between items-center mb-16">
+
+        <span className="text-sm tracking-[0.35em] uppercase text-silver-muted">
+          Menú
+        </span>
+
+        <button
+          onClick={() => setMobileMenuOpen(false)}
+          className="text-silver-bright hover:text-white transition-colors"
+        >
+          <X size={32} />
+        </button>
+
+      </div>
+
+      {/* LINKS */}
+      <nav className="flex flex-col gap-10 text-xl uppercase tracking-[0.28em] text-silver-bright">
+
         <a
           href="#coleccion"
           onClick={() => setMobileMenuOpen(false)}
+          className="hover:text-white transition-colors"
         >
           Destacados
         </a>
@@ -172,6 +193,7 @@ const Index = () => {
         <a
           href="#historia"
           onClick={() => setMobileMenuOpen(false)}
+          className="hover:text-white transition-colors"
         >
           Historia
         </a>
@@ -179,6 +201,7 @@ const Index = () => {
         <a
           href="#categorias"
           onClick={() => setMobileMenuOpen(false)}
+          className="hover:text-white transition-colors"
         >
           Categorías
         </a>
@@ -186,6 +209,7 @@ const Index = () => {
         <a
           href="#contacto"
           onClick={() => setMobileMenuOpen(false)}
+          className="hover:text-white transition-colors"
         >
           Contacto
         </a>
@@ -194,8 +218,9 @@ const Index = () => {
 
     </div>
 
-  )}
+  </div>
 
+)}
 </header>
 
       {/* HERO */}

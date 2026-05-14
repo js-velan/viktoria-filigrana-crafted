@@ -97,3 +97,17 @@
 .delay-200 { animation-delay: .25s; }
 .delay-300 { animation-delay: .4s; }
 .delay-400 { animation-delay: .55s; }
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.35s ease;
+}
