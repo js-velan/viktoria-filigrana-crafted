@@ -171,6 +171,14 @@ const Index = () => {
                     ? `$${p.price.toLocaleString("es-CO")}`
                     : "Bajo pedido"}
                 </p>
+                <a
+                  href={`https://wa.me/573108917952?text=Hola,%20quiero%20información%20sobre%20${encodeURIComponent(p.name)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-4 text-xs uppercase tracking-[0.25em] text-silver-bright hover:text-white transition-colors"
+                >
+                  Pide Aqui →
+                </a>
               </div>
             ))}
           </div>
