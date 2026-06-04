@@ -24,7 +24,7 @@ export const products: Product[] = [
   { name: "Topos Elara", price: 30000, image: "/products/topos-elara.webp", category: "Topos" },
 
 
-  { name: "Topos Perla", price: 36000, image: "/products/topos-perla.webp", category: "Topos" },
+  { name: "Topos Perla", image: "/products/topos-perla.webp", category: "Topos" },
   { name: "Topos Perla Mini", price: 15000, image: "/products/topos-perla-mini.webp", category: "Topos" },
   { name: "Topos Dalia x3", price: 35000, image: "/products/topos-dalia-x3.webp", category: "Topos" },
   { name: "Topos Celestia", price: 125000, image: "/products/topos-celestia.webp", category: "Topos" },
@@ -45,7 +45,7 @@ export const products: Product[] = [
   { name: "Candongas Celeste", price: 126000, image: "/products/candongas-celeste.webp", category: "Topos" },
 
 
-  { name: "Topos Serena",price: 72000, image: "/products/topos-serena.webp", category: "Topos" },
+  { name: "Topos Serena", image: "/products/topos-serena.webp", category: "Topos" },
   { name: "Topos Libélula Celeste", image: "/products/topos-libelula-celeste.webp", category: "Topos" },
   { name: "Topos Mariposa",price: 94000, image: "/products/topos-mariposa.webp", category: "Topos" },
   { name: "Topos Nala",  image: "/products/topos-nala.webp", category: "Topos" },
@@ -66,17 +66,17 @@ export const products: Product[] = [
 
 
 { name: "Topos Café", price: 47000, image: "/products/topos-cafe.webp", category: "Topos" },
-{ name: "Topos Caracol", price: 58000, image: "/products/topos-caracol.webp", category: "Topos" },
+{ name: "Topos Caracol", image: "/products/topos-caracol.webp", category: "Topos" },
 { name: "Topos Corazón", price: 40000, image: "/products/topos-corazon.webp", category: "Topos" },
 { name: "Topos Eclipse", price: 65000, image: "/products/topos-eclipse.webp", category: "Topos" },
 { name: "Topos Estrella", price: 40000, image: "/products/topos-estrella.webp", category: "Topos" },
 { name: "Topos Flor Constelación", price: 62000, image: "/products/topos-flor-constelacion.webp", category: "Topos" },
 { name: "Topos Lys", price: 65000, image: "/products/topos-lys.webp", category: "Topos" },
 
-{ name: "Topos Lunares", price: 68000, image: "/products/topos-lunares.webp", category: "Topos" },
+{ name: "Topos Lunares", image: "/products/topos-lunares.webp", category: "Topos" },
 
 
-{ name: "Topos Onagra", price: 68000, image: "/products/topos-onagra.webp", category: "Topos" },
+{ name: "Topos Onagra", image: "/products/topos-onagra.webp", category: "Topos" },
 { name: "Topos Sol", image: "/products/topos-sol.webp", category: "Topos" },
 { name: "Topos Uvas", price: 83000, image: "/products/topos-uvas.webp", category: "Topos" },
 
@@ -104,7 +104,7 @@ export const products: Product[] = [
   { name: "Dije Cruz Viktoria", price: 49000, image: "/products/dije-cruz-viktoria.webp", category: "Dijes" },
   { name: "Dije Imperiale", price: 47000, image: "/products/dije-imperiale.webp", category: "Dijes" },
   { name: "Dije Delfín", price: 71000, image: "/products/dije-delfin.webp", category: "Dijes" },
-  { name: "Dije Sorelle", price: 56000, image: "/products/dije-sorelle.webp", category: "Dijes" },
+  { name: "Dije Sorelle", image: "/products/dije-sorelle.webp", category: "Dijes" },
 
   { name: "Dije Rayito", price: 17000, image: "/products/dije-rayito.webp", category: "Dijes" },
   { name: "Dije Sombrero Vueltiao", price: 112000, image: "/products/dije-sombrero-vueltiao.webp", category: "Dijes" },
@@ -114,7 +114,7 @@ export const products: Product[] = [
   // ===== SETS =====
   { name: "Set Vuelo", price: 198000, image: "/products/set-vuelo.webp", category: "Sets" },
   { name: "Set Cruz Viktoria", price: 145000, image: "/products/set-cruz-viktoria.webp", category: "Sets" },
-  { name: "Set Sorelle", price: 180000, image: "/products/set-sorelle.webp", category: "Sets" },
+  { name: "Set Sorelle", image: "/products/set-sorelle.webp", category: "Sets" },
   { name: "Set Imperiale", price: 115000, image: "/products/set-imperiale.webp", category: "Sets" },
 
   { name: "Set Nerea", price: 280000, image: "/products/set-nerea.webp", category: "Sets" },  
@@ -153,7 +153,7 @@ export const products: Product[] = [
 
 
 
-  { name: "Pulsera Brillo", price: 130000, image: "/products/pulsera-brillo.webp", category: "Pulseras" },
+  { name: "Pulsera Brillo", image: "/products/pulsera-brillo.webp", category: "Pulseras" },
 
   { name: "Pulsera Jazmín", price: 355000, image: "/products/pulsera-jazmin.webp", category: "Pulseras" },
 
@@ -173,7 +173,7 @@ export const products: Product[] = [
   { name: "Anillo Maelis", price: 109000, image: "/products/anillo-maelis.webp", category: "Anillos" },
   { name: "Anillo Roselle", price: 70000, image: "/products/anillo-roselle.webp", category: "Anillos" },
 
-{ name: "Anillo Nerida", price: 70000, image: "/products/anillo-nerida.webp", category: "Anillos" },
+{ name: "Anillo Nerida", image: "/products/anillo-nerida.webp", category: "Anillos" },
 
 { name: "Anillo Mariposa", price: 70000, image: "/products/anillo-mariposa.webp", category: "Anillos" },
 

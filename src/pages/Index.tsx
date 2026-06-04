@@ -49,7 +49,7 @@ const Monogram = () => (
 
 const Index = () => {
   
-  const [showPromo, setShowPromo] = useState(true);
+  const [showPromo, setShowPromo] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   useEffect(() => {
     if (mobileMenuOpen) {
