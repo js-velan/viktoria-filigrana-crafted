@@ -161,6 +161,12 @@ export const products: Product[] = [
   { name: "Pulsera Gardenia", image: "/products/pulsera-gardenia.webp", category: "Pulseras" },
   { name: "Pulsera Entrelazos", image: "/products/pulsera-entrelazos.webp", category: "Pulseras" },
   
+  { name: "Pulsera Gatos", price: 155000, image: "/products/pulsera-gatos.webp", category: "Pulseras" },
+  { name: "Pulsera Sombrero Vueltiao", price: 190000, image: "/products/pulsera-sombrero.webp", category: "Pulseras" },
+  { name: "Pulsera Encanto", price: 340000, image: "/products/pulsera-encanto.webp", category: "Pulseras" },
+  { name: "Pulsera Primavera", price: 290000, image: "/products/pulsera-primavera.webp", category: "Pulseras" },
+  { name: "Pulsera Eclipse", image: "/products/pulsera-eclipse.webp", category: "Pulseras" },
+  { name: "Pulsera Constelacion", price: 590000, image: "/products/pulsera-constelacion.webp", category: "Pulseras" },
   // ===== ANILLOS =====
   { name: "Anillo Alba", price: 119000, image: "/products/anillo-alba.webp", category: "Anillos" },
   { name: "Anillo Aurea", price: 155000, image: "/products/anillo-aurea.webp", category: "Anillos" },
