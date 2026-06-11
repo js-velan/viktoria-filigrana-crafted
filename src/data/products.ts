@@ -61,7 +61,7 @@ export const products: Product[] = [
 
   { name: "Topos Valence", image: "/products/topos-valence.webp", category: "Topos" },
   { name: "Topos Sombrero Vueltiao",price: 110000, image: "/products/topos-sombrero-vueltiao.webp", category: "Topos" },
-
+  { name: "Topos Mariposa Mini",price: 40000, image: "/products/topos-mariposa-mini.webp", category: "Topos" },
 
 
 
@@ -87,6 +87,14 @@ export const products: Product[] = [
   { name: "Aretes Cruz Viktoria Mini", price: 59000, image: "/products/aretes-cruz-viktoria-mini.webp", category: "Aretes" },
   { name: "Aretes Verana", price: 96000, image: "/products/aretes-verana.webp", category: "Aretes" },
   { name: "Aretes Siena", price: 112000, image: "/products/aretes-siena.webp", category: "Aretes" },
+  { name: "Aretes Arbol De La Vida", price: 98000, image: "/products/aretes-arbol-vida.webp", category: "Aretes" },
+  { name: "Aretes Lucero", price: 130000, image: "/products/aretes-lucero.webp", category: "Aretes" },
+  { name: "Aretes Valence", price: 112000, image: "/products/aretes-valence.webp", category: "Aretes" },
+  { name: "Aretes Estrella Mar", price: 90000, image: "/products/aretes-estrella-mar.webp", category: "Aretes" },
+  { name: "Aretes Trebol Real", price: 160000, image: "/products/aretes-trebol-real.webp", category: "Aretes" },
+  { name: "Aretes Perla x4", price: 165000, image: "/products/aretes-perla-x4.webp", category: "Aretes" },
+  { name: "Aretes Libelula Tigre ",price: 115000, image: "/products/aretes-libelula-tigre.webp", category: "Aretes" },
+
   { name: "Aretes Oliva", image: "/products/aretes-oliva.webp", category: "Aretes" },
   { name: "Aretes Serena", image: "/products/aretes-serena.webp", category: "Aretes" },
   { name: "Aretes Laurel", image: "/products/aretes-laurel.webp", category: "Aretes" },
@@ -195,6 +203,9 @@ export const products: Product[] = [
 
 { name: "Anillo Aura", price: 54000, image: "/products/anillo-aura.webp", category: "Anillos" },
 
+{ name: "Anillo lucero", price: 82000, image: "/products/anillo-lucero.webp", category: "Anillos" },
+
+{ name: "Anillo Encanto Floral", price: 126000, image: "/products/anillo-encanto-floral.webp", category: "Anillos" },
   { name: "Anillo Aurelia", image: "/products/anillo-aurelia.webp", category: "Anillos" },
   { name: "Anillo Elara", image: "/products/anillo-elara.webp", category: "Anillos" },
   { name: "Anillo Liora", image: "/products/anillo-liora.webp", category: "Anillos" },      
