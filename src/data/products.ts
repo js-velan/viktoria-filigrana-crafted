@@ -203,7 +203,7 @@ export const products: Product[] = [
 
 { name: "Anillo Aura", price: 54000, image: "/products/anillo-aura.webp", category: "Anillos" },
 
-{ name: "Anillo lucero", price: 82000, image: "/products/anillo-lucero.webp", category: "Anillos" },
+{ name: "Anillo Brisa", price: 82000, image: "/products/anillo-brisa.webp", category: "Anillos" },
 
 { name: "Anillo Encanto Floral", price: 126000, image: "/products/anillo-encanto-floral.webp", category: "Anillos" },
   { name: "Anillo Aurelia", image: "/products/anillo-aurelia.webp", category: "Anillos" },
