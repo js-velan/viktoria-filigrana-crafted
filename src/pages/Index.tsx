@@ -65,7 +65,7 @@ const Index = () => {
   const featuredProducts = products.filter((p) =>
     [
       "Topos Azalea",
-      "Topos Clover",
+      "Pulsera Encanto",
       "Anillo Alba",
       "Aretes Brisa",
       "Set Vuelo",

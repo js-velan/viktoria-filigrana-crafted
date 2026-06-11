@@ -87,7 +87,7 @@ export const products: Product[] = [
   { name: "Aretes Cruz Viktoria Mini", price: 59000, image: "/products/aretes-cruz-viktoria-mini.webp", category: "Aretes" },
   { name: "Aretes Verana", price: 96000, image: "/products/aretes-verana.webp", category: "Aretes" },
   { name: "Aretes Siena", price: 112000, image: "/products/aretes-siena.webp", category: "Aretes" },
-  { name: "Aretes Oliva", price: 112000, image: "/products/aretes-oliva.webp", category: "Aretes" },
+  { name: "Aretes Oliva", image: "/products/aretes-oliva.webp", category: "Aretes" },
   { name: "Aretes Serena", image: "/products/aretes-serena.webp", category: "Aretes" },
   { name: "Aretes Laurel", image: "/products/aretes-laurel.webp", category: "Aretes" },
   { name: "Aretes Dalia", image: "/products/aretes-dalia.webp", category: "Aretes" },
