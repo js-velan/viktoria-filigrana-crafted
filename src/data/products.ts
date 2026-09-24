@@ -10,9 +10,9 @@ export type Product = {
 export const products: Product[] = [
 
   // ===== TOPOS =====
-  { name: "Topos Azalea", price: 105000, image: "/products/topos-azalea.webp", category: "Topos" }, 
+  { name: "Topos Azalea", image: "/products/topos-azalea.webp", category: "Topos" }, 
   { name: "Topos Magnolia", price: 130000, image: "/products/topos-magnolia.webp", category: "Topos" },
-  { name: "Topos Estela", price: 50000, image: "/products/topos-estela.webp", category: "Topos" },
+  { name: "Topos Estela", image: "/products/topos-estela.webp", category: "Topos" },
   { name: "Topos Alba", image: "/products/topos-alba.webp", category: "Topos" },
   { name: "Topos Isla", image: "/products/topos-isla.webp", category: "Topos" },
 
@@ -21,13 +21,13 @@ export const products: Product[] = [
   { name: "Topos Aura", image: "/products/topos-aura.webp", category: "Topos" },
  { name: "Topos Clover", image: "/products/topos-clover.webp", category: "Topos" },
 
-  { name: "Topos Elara", price: 30000, image: "/products/topos-elara.webp", category: "Topos" },
+  { name: "Topos Elara", image: "/products/topos-elara.webp", category: "Topos" },
 
 
   { name: "Topos Perla", image: "/products/topos-perla.webp", category: "Topos" },
   { name: "Topos Perla Mini", price: 15000, image: "/products/topos-perla-mini.webp", category: "Topos" },
   { name: "Topos Dalia x3", price: 35000, image: "/products/topos-dalia-x3.webp", category: "Topos" },
-  { name: "Topos Celestia", price: 125000, image: "/products/topos-celestia.webp", category: "Topos" },
+  { name: "Topos Celestia", image: "/products/topos-celestia.webp", category: "Topos" },
 
   { name: "Topos Vida", image: "/products/topos-vida.webp", category: "Topos" },
   { name: "Topos Dalia x4", image: "/products/topos-dalia-x4.webp", category: "Topos" },
@@ -35,13 +35,13 @@ export const products: Product[] = [
   { name: "Topos Aveline", image: "/products/topos-aveline.webp", category: "Topos" },
 
 
-  { name: "Topos Colibrí", price: 95000, image: "/products/topos-colibri.webp", category: "Topos" },
+  { name: "Topos Colibrí", image: "/products/topos-colibri.webp", category: "Topos" },
 
 
   { name: "Candongas Roma", price: 86000, image: "/products/candongas-roma.webp", category: "Topos" },
-  { name: "Candongas Laurel", price: 62000, image: "/products/candongas-laurel.webp", category: "Topos" },
+  { name: "Candongas Laurel", image: "/products/candongas-laurel.webp", category: "Topos" },
   { name: "Candongas Siena", image: "/products/candongas-siena.webp", category: "Topos" },  
-  { name: "Candongas Atelier", price: 40000, image: "/products/candongas-atelier.webp", category: "Topos" },
+  { name: "Candongas Atelier", image: "/products/candongas-atelier.webp", category: "Topos" },
   { name: "Candongas Celeste", price: 126000, image: "/products/candongas-celeste.webp", category: "Topos" },
 
 
@@ -51,23 +51,23 @@ export const products: Product[] = [
   { name: "Topos Nala",  image: "/products/topos-nala.webp", category: "Topos" },
   { name: "Topos Libélula Jardín", price: 115000, image: "/products/topos-libelula-jardin.webp", category: "Topos" },
   { name: "Topos Libélula Serena", price: 68000, image: "/products/topos-libelula-serena.webp", category: "Topos" },
-  { name: "Topos Libélula Aurea",price: 72000, image: "/products/topos-libelula-aurea.webp", category: "Topos" },
+  { name: "Topos Libélula Aurea", image: "/products/topos-libelula-aurea.webp", category: "Topos" },
   { name: "Topos Mariposa Aura", price: 72000, image: "/products/topos-mariposa-aura.webp", category: "Topos" },
 
   { name: "Topos Largos Eva", price: 182000, image: "/products/topos-largos-eva.webp", category: "Topos" },
   { name: "Topos Largos Aveline", price: 264000, image: "/products/topos-largos-aveline.webp", category: "Topos" },
   { name: "Topos Largos Virel", price: 400000, image: "/products/topos-largos-virel.webp", category: "Topos" },
-  { name: "Topos Imperiale", price: 70000, image: "/products/topos-imperiale.webp", category: "Topos" },
+  { name: "Topos Imperiale", image: "/products/topos-imperiale.webp", category: "Topos" },
 
   { name: "Topos Valence", image: "/products/topos-valence.webp", category: "Topos" },
   { name: "Topos Sombrero Vueltiao",price: 110000, image: "/products/topos-sombrero-vueltiao.webp", category: "Topos" },
-  { name: "Topos Mariposa Mini",price: 40000, image: "/products/topos-mariposa-mini.webp", category: "Topos" },
+  { name: "Topos Mariposa Mini", image: "/products/topos-mariposa-mini.webp", category: "Topos" },
 
 
 
-{ name: "Topos Café", price: 47000, image: "/products/topos-cafe.webp", category: "Topos" },
+{ name: "Topos Café",image: "/products/topos-cafe.webp", category: "Topos" },
 { name: "Topos Caracol", image: "/products/topos-caracol.webp", category: "Topos" },
-{ name: "Topos Corazón", price: 40000, image: "/products/topos-corazon.webp", category: "Topos" },
+{ name: "Topos Corazón", image: "/products/topos-corazon.webp", category: "Topos" },
 { name: "Topos Eclipse", price: 65000, image: "/products/topos-eclipse.webp", category: "Topos" },
 { name: "Topos Estrella", price: 40000, image: "/products/topos-estrella.webp", category: "Topos" },
 { name: "Topos Flor Constelación", price: 62000, image: "/products/topos-flor-constelacion.webp", category: "Topos" },
@@ -85,12 +85,12 @@ export const products: Product[] = [
   { name: "Aretes Gota", price: 93000, image: "/products/aretes-gota.webp", category: "Aretes" },
   { name: "Aretes Azalea", price: 195000, image: "/products/aretes-azalea.webp", category: "Aretes" },
   { name: "Aretes Cruz Viktoria Mini", price: 59000, image: "/products/aretes-cruz-viktoria-mini.webp", category: "Aretes" },
-  { name: "Aretes Verana", price: 96000, image: "/products/aretes-verana.webp", category: "Aretes" },
-  { name: "Aretes Siena", price: 112000, image: "/products/aretes-siena.webp", category: "Aretes" },
-  { name: "Aretes Arbol De La Vida", price: 98000, image: "/products/aretes-arbol-vida.webp", category: "Aretes" },
+  { name: "Aretes Verana", image: "/products/aretes-verana.webp", category: "Aretes" },
+  { name: "Aretes Siena", image: "/products/aretes-siena.webp", category: "Aretes" },
+  { name: "Aretes Arbol De La Vida", image: "/products/aretes-arbol-vida.webp", category: "Aretes" },
   { name: "Aretes Lucero", price: 130000, image: "/products/aretes-lucero.webp", category: "Aretes" },
   { name: "Aretes Valence", price: 112000, image: "/products/aretes-valence.webp", category: "Aretes" },
-  { name: "Aretes Estrella Mar", price: 90000, image: "/products/aretes-estrella-mar.webp", category: "Aretes" },
+  { name: "Aretes Estrella Mar", image: "/products/aretes-estrella-mar.webp", category: "Aretes" },
   { name: "Aretes Trebol Real", price: 160000, image: "/products/aretes-trebol-real.webp", category: "Aretes" },
   { name: "Aretes Perla x4", price: 165000, image: "/products/aretes-perla-x4.webp", category: "Aretes" },
   { name: "Aretes Libelula Tigre ",price: 115000, image: "/products/aretes-libelula-tigre.webp", category: "Aretes" },
@@ -107,8 +107,8 @@ export const products: Product[] = [
   { name: "Aretes Ezia", image: "/products/aretes-ezia.webp", category: "Aretes" },
 
   // ===== DIJES =====
-  { name: "Dije Trebol", price: 33000, image: "/products/dije-trebol.webp", category: "Dijes" },
-  { name: "Dije Inicial J", price: 33000, image: "/products/dije-inicial-j.webp", category: "Dijes" },
+  { name: "Dije Trebol", image: "/products/dije-trebol.webp", category: "Dijes" },
+  { name: "Dije Inicial J", image: "/products/dije-inicial-j.webp", category: "Dijes" },
   { name: "Dije Cruz Viktoria", price: 49000, image: "/products/dije-cruz-viktoria.webp", category: "Dijes" },
   { name: "Dije Imperiale", price: 47000, image: "/products/dije-imperiale.webp", category: "Dijes" },
   { name: "Dije Delfín", price: 71000, image: "/products/dije-delfin.webp", category: "Dijes" },
@@ -123,9 +123,9 @@ export const products: Product[] = [
   { name: "Set Vuelo", price: 198000, image: "/products/set-vuelo.webp", category: "Sets" },
   { name: "Set Cruz Viktoria", price: 145000, image: "/products/set-cruz-viktoria.webp", category: "Sets" },
   { name: "Set Sorelle", image: "/products/set-sorelle.webp", category: "Sets" },
-  { name: "Set Imperiale", price: 115000, image: "/products/set-imperiale.webp", category: "Sets" },
+  { name: "Set Imperiale", image: "/products/set-imperiale.webp", category: "Sets" },
 
-  { name: "Set Nerea", price: 280000, image: "/products/set-nerea.webp", category: "Sets" },  
+  { name: "Set Nerea", image: "/products/set-nerea.webp", category: "Sets" },  
   { name: "Set Novara", image: "/products/set-novara.webp", category: "Sets" },
   { name: "Set Gatos", image: "/products/set-gatos.webp", category: "Sets" },
   { name: "Set Aveline", image: "/products/set-aveline.webp", category: "Sets" },
@@ -185,7 +185,7 @@ export const products: Product[] = [
   { name: "Anillo Ateliar", price: 75000, image: "/products/anillo-ateliar.webp", category: "Anillos" },
   { name: "Anillo Virel", price: 86000, image: "/products/anillo-virel.webp", category: "Anillos" },
   { name: "Anillo Maelis", price: 109000, image: "/products/anillo-maelis.webp", category: "Anillos" },
-  { name: "Anillo Roselle", price: 70000, image: "/products/anillo-roselle.webp", category: "Anillos" },
+  { name: "Anillo Roselle", image: "/products/anillo-roselle.webp", category: "Anillos" },
 
 { name: "Anillo Nerida", image: "/products/anillo-nerida.webp", category: "Anillos" },
 
